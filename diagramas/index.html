@@ -57,6 +57,8 @@ button { cursor: pointer; }
 .app { max-width: 1360px; margin-inline: auto; display: flex; flex-direction: column; gap: 16px; }
 
 /* ---------- barra superior ---------- */
+.backkit { display: inline-block; margin-bottom: 4px; font-size: .85rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+.backkit:hover { text-decoration: underline; }
 .top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; }
 .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
 .brand svg { flex: none; }
@@ -173,6 +175,7 @@ details.legend summary { cursor: pointer; font-weight: 600; }
         <rect x="14" y="32" width="16" height="6" rx="1.5" fill="#fff"/>
       </svg>
       <div>
+        <a class="backkit" href="../kit/">&larr; Volver al Kit</a>
         <h1>Generador de diagramas</h1>
         <p class="sub">Escribe tus pasos, elige a dónde va cada uno y el diagrama se dibuja solo.</p>
       </div>

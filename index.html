@@ -55,6 +55,10 @@ h1 .t{color:var(--teal)}
 .card p{margin:0;color:var(--muted)}
 .chips{display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:4px 0 0;list-style:none}
 .chips li{font-size:.8rem;font-weight:500;padding:2px 11px;border-radius:999px;background:var(--teal-soft);color:var(--ink)}
+.price{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-top:6px}
+.price .lbl{font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.price .amt{font-size:2.2rem;font-weight:800;line-height:1;letter-spacing:-.02em;color:var(--ink)}
+.price small{font-size:.9rem;font-weight:700;color:var(--muted);letter-spacing:0}
 .checks{list-style:none;padding:0;margin:4px 0 0;display:grid;gap:4px;font-weight:500}
 .checks li::before{content:"\2713";color:var(--teal);font-weight:800;margin-right:9px}
 .go{margin-top:auto;padding-top:10px}
@@ -92,6 +96,7 @@ a:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
         <li>2 plantillas de Word: diagrama de flujo y reporte de laboratorio</li>
         <li>Tutorial en PDF y video</li>
       </ul>
+      <div class="price"><span class="lbl">Precio de salida</span><span class="amt">$50 <small>MXN</small></span></div>
       <div class="go"><a class="btn yellow" href="https://wa.me/525547076523?text=Hola%2C%20quiero%20el%20Kit%20del%20Alumno" target="_blank" rel="noopener">Pedirlo por WhatsApp</a></div>
     </article>
   </section>
